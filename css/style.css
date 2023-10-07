@@ -720,8 +720,11 @@ footer .container .footer1 .item i {
   margin-right: 0.5rem;
   color: #482f2f;
 }
+footer .container .footer1 .item a {
+  color: #482f2f;
+}
 footer .container .footer1 .item span {
-  color: #b48250;
+  color: #482f2f;
 }
 footer .container .footer1 .social-media {
   margin-top: 1rem;
