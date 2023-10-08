@@ -30,6 +30,15 @@ background: $main-color;
     background: $bg2-color;
     border-radius: 10px;
 }
+::-moz-selection { /* Code for Firefox */
+    color: $white-color;
+    background: $main-color;
+  }
+  
+  ::selection {
+    color: $white-color;
+    background: $main-color;
+  }
 html{
     scroll-behavior: smooth;
 }

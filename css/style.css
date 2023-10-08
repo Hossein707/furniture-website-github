@@ -21,6 +21,16 @@
   border-radius: 10px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #482f2f;
+}
+
+::selection {
+  color: #fff;
+  background: #482f2f;
+}
+
 html {
   scroll-behavior: smooth;
 }
