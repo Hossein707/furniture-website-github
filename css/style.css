@@ -227,6 +227,7 @@ header .account .container form input[type=checkbox] {
   width: 1.2rem;
   margin-bottom: 0;
   margin-right: 0.5rem;
+  accent-color: #482f2f;
 }
 header .account .container form .links {
   margin-bottom: 1rem;
