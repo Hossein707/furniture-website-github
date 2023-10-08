@@ -790,7 +790,7 @@ header {
 
 
 .team {
-
+    margin-bottom: 2rem;
     .container {
         display: grid;
         grid-template-columns: repeat(auto-fit, 200px);
@@ -923,7 +923,6 @@ header {
 footer {
     background: $bg2-color;
     padding: 1rem 5rem;
-
     .container {
         display: flex;
         align-items: flex-start;
@@ -1000,6 +999,7 @@ footer {
                 margin-bottom: 1rem;
                 border-radius: 0.5rem;
                 width: 80%;
+                text-transform: lowercase;
             }
 
         }

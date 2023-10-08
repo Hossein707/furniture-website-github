@@ -622,6 +622,9 @@ header .shopping-cart .btn {
   color: #482f2f;
 }
 
+.team {
+  margin-bottom: 2rem;
+}
 .team .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 200px);
@@ -790,6 +793,7 @@ footer .container .footer3 input {
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   width: 80%;
+  text-transform: lowercase;
 }
 
 .copyright {
