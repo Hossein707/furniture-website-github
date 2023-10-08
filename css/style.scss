@@ -19,8 +19,20 @@ $dark-bg-color: #383838;
 $text-color: #444;
 $gradient: linear-gradient($main-color, $second-color);
 
-
-
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+background: $main-color;
+}
+::-webkit-scrollbar-thumb{
+    // background: linear-gradient($second-color,$border-color);
+    background: $bg2-color;
+    border-radius: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
 header {
     padding: 1.2rem 5rem;
 }

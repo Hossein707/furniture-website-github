@@ -8,6 +8,23 @@
   transition: all 0.5s;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #482f2f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1e0cf;
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   padding: 1.2rem 5rem;
 }
